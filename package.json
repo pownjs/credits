@@ -30,6 +30,7 @@
     ]
   },
   "dependencies": {
-    "pown-modules": "^0.4.0"
+    "pown-modules": "^0.4.0",
+    "wordwrap": "^1.0.0"
   }
 }
