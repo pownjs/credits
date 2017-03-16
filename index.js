@@ -11,9 +11,10 @@ exports.yargs = {
     },
 
     handler: (argv) => {
+        const chalk = require('chalk')
         const pownModules = require('pown-modules')
 
-        console.log(`
+        console.log(chalk.yellow(`
 88888b.  8888b. 888  888  88888888b.
 888 "88b    "88b888  888  888888 "88b
 888  888.d888888888  888  888888  888
@@ -30,7 +31,7 @@ exports.yargs = {
        888
       d88P
     888P"
-`)
+`))
 
         let list
 
