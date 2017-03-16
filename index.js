@@ -4,7 +4,9 @@ exports.yargs = {
 
     builder: {
         only: {
-            alias: 'o'
+            type: 'boolean',
+            alias: 'o',
+            describe: 'Only Pown.js contributors'
         }
     },
 
