@@ -4,7 +4,7 @@
   "description": "Pownage guaranteed",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "credits": "POWN_ROOT=./ pown credits"
   },
   "repository": {
     "type": "git",
@@ -19,5 +19,16 @@
   "bugs": {
     "url": "https://github.com/pownjs/pown-credits/issues"
   },
-  "homepage": "https://github.com/pownjs/pown-credits#readme"
+  "homepage": "https://github.com/pownjs/pown-credits#readme",
+  "devDependencies": {
+    "pown-cli": "^0.2.0"
+  },
+  "pown": {
+    "commands": [
+      "./index.js"
+    ]
+  },
+  "dependencies": {
+    "pown-modules": "^0.4.0"
+  }
 }
