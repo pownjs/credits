@@ -15,7 +15,7 @@ $ npm install @pown/credits --save
 Once done, invoke pown credits like this:
 
 ```sh
-$ ./node_modules/.bin/pown credits
+$ ./node_modules/.bin/pown-cli credits
 ```
 
 If installed globally or as part of Pown.js distribution invoke like this:

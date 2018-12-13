@@ -4,7 +4,7 @@
   "description": "Pownage guaranteed",
   "main": "lib/index.js",
   "scripts": {
-    "credits": "POWN_ROOT=./ pown credits",
+    "credits": "POWN_ROOT=. pown-cli credits",
     "test": "mocha"
   },
   "repository": {
@@ -23,16 +23,12 @@
   },
   "homepage": "https://github.com/pownjs/pown-credits#readme",
   "devDependencies": {
-    "@pown/cli": "^2.0.0"
+    "@pown/cli": "^2.0.3"
   },
   "pown": {
     "commands": [
       "lib/command.js"
     ]
   },
-  "dependencies": {
-    "@pown/modules": "^2.0.0",
-    "chalk": "^2.4.1",
-    "wordwrap": "^1.0.0"
-  }
+  "dependencies": {}
 }
