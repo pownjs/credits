@@ -27,7 +27,7 @@
   },
   "pown": {
     "commands": [
-      "lib/command.js"
+      "lib/commands/credits.js"
     ]
   },
   "dependencies": {}
