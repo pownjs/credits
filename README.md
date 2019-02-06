@@ -6,6 +6,18 @@
 
 Celebrate all Pown.js contributors. This command is part of every pown standart distribution.
 
+## Credits
+
+This tool is part of [secapps.com](https://secapps.com) open-source initiative.
+
+```
+  ___ ___ ___   _   ___ ___  ___
+ / __| __/ __| /_\ | _ \ _ \/ __|
+ \__ \ _| (__ / _ \|  _/  _/\__ \
+ |___/___\___/_/ \_\_| |_|  |___/
+  https://secapps.com
+```
+
 ## Quickstart
 
 This tool is meant to be used as part of [Pown.js](https://github.com/pownjs/pown) but it can be invoked separately as an independent tool.
